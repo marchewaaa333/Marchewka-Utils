@@ -1,5 +1,6 @@
 # MarchewkaFiles
-Simple file utils (Build path, Libraries, Add external jars)
+- Simple file utils (Create File, Write to file, Get file info, Get file context)
+- Version b1.0
 
 ## General info
 This project is a simple file utils.
