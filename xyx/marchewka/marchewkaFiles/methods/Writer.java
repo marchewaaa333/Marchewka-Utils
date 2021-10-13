@@ -10,9 +10,9 @@ public class Writer {
 	
 	public static void Write(String path, String name, String Context) {
 	    try {
-	    	FileWriter myWriter = new FileWriter(path+File.separator+name);
-			myWriter.write(Context);
-			myWriter.close();
+	    	FileWriter w = new FileWriter(path+File.separator+name);
+			w.write(Context);
+			w.close();
 		} catch (IOException e) {
 			Loggers.Log("[File/Writer/Error]", "Failed!");
 			e.printStackTrace();

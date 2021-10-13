@@ -14,7 +14,7 @@ public class GetContext {
 			Scanner r = new Scanner(f);
 		     while (r.hasNextLine()) {
 		         String data = r.nextLine();
-		         System.out.println(data);
+		         System.out.println("[GetContext] "+data);
 		       }
 		    r.close();
 		} catch (FileNotFoundException e) {
