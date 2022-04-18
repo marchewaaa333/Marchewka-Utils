@@ -1,9 +1,9 @@
-# MarchewkaFiles
-- Simple file utils (Create File, Write to file, Get file info, Get file context)
+# Marchewka-Utils
+- Simple utils (web, files)
 - Version b1.0
 
 ## General info
-This project is a simple file utils.
+This project is a simple utils.
 	
 ## Technologies
 Project is created with:
@@ -19,7 +19,7 @@ To use it:
 5. Select MarchewkaFilesV-B1.jar
 6. You are done ;0
 ```
-## Example usage: 
+## Example usage of files: 
 ```
 import xyx.marchewka.marchewkaFiles.methods.GetContext;
 import xyx.marchewka.marchewkaFiles.methods.GetFileInfo;
